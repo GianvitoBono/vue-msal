@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dist": "tsc",
-        "dist-min": "tsc"
+        "dist-min": "tsc",
+        "prepare": "tsc"
     },
     "keywords": [
         "vue",
