@@ -1,45 +1,43 @@
 {
-  "name": "vue-msal",
-  "version": "3.2.0",
-  "description": "Vue plugin for using Microsoft Authentication Library (MSAL)",
-  "main": "dist/plugin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "vue",
-    "msal",
-    "adal",
-    "authentication",
-    "sso"
-  ],
-  "author": "Marios Vertopoulos",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mvertopoulos/vue-msal/issues"
-  },
-  "contributors": [
-    {
-      "name": "Marios Vertopoulos"
+    "name": "vue-msal",
+    "version": "3.2.0",
+    "description": "Vue plugin for using Microsoft Authentication Library (MSAL)",
+    "main": "dist/plugin.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue",
+        "msal",
+        "adal",
+        "authentication",
+        "sso"
+    ],
+    "author": "Marios Vertopoulos",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mvertopoulos/vue-msal/issues"
+    },
+    "contributors": [{
+        "name": "Marios Vertopoulos"
+    }],
+    "eslintIgnore": [
+        "lib/*.*"
+    ],
+    "homepage": "https://github.com/mvertopoulos/vue-msal#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mvertopoulos/vue-msal.git"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "lodash": "^4.17.21",
+        "msal": "^1.4.15"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.138"
     }
-  ],
-  "eslintIgnore": [
-    "lib/*.*"
-  ],
-  "homepage": "https://github.com/mvertopoulos/vue-msal#readme",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mvertopoulos/vue-msal.git"
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "lodash": "^4.17.15",
-    "msal": "^1.3.2"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.138"
-  }
 }
